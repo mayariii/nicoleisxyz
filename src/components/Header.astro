@@ -1,19 +1,43 @@
 ---
 	import HeaderLink from './HeaderLink.astro';
+	import Logo from './Logo.astro';
+	import { ArrowTopRightOnSquareIcon, EnvelopeIcon } from '@heroicons/react/24/outline/'
+	import { backgroundPrimary, hoverUIAccent, typographyAccent, typographyPrimaryInverted, UIAccent } from '../styles/styles';
+
 
 	const pages = [
-		{ name: 'home', href: '/' },
 		{ name: 'writing', href: '/blog/' },
 		{ name: 'coding', href: '/portfolio/' },
 		{ name: 'working', href: '/cv/' },
 		{ name: 'being', href: '/about/' },
-		{ name: 'digital gardening 🔗', href: 'https://www.nicolesgarden.digital' }
+		{ name: 'digital gardening', href: 'https://www.nicolesgarden.digital', icon: ArrowTopRightOnSquareIcon }
 	]
 ---
 
 <header>
 	<nav>
-		{pages.map(page => <HeaderLink href={page.href}>{page.name}</HeaderLink>)}
+		<div class={`shadow z-50 ${backgroundPrimary} `}>
+			<div class="max-w-7xl mx-auto px-2 sm:px-6 lg:px-8">
+				<div class="relative flex items-center justify-between h-16">
+					<div class="flex space-x-4 items-center">
+						<a href="/">
+							<Logo />
+						</a>
+
+						{pages.map(page => <HeaderLink href={page.href} target={page.icon ? '_blank' : '_self' }>
+							{page.name}{page.icon
+							&& <span class="p-1">
+								<page.icon className="inline h-4 w-4 text-gray-500" aria-hidden="true" />
+							</span>}</HeaderLink>)}
+					</div>
+					<a href="mailto:hello@nicoleis.xyz" aria-label="send me an email to hello@nicoleis.xyz"
+						class={`inline-flex items-center p-1 border border-transparent rounded-full shadow-sm
+						${typographyPrimaryInverted} ${UIAccent} ${hoverUIAccent} ml-10 space-x-4`}>
+						<EnvelopeIcon className="h-5 w-5" />
+					</a>
+				</div>
+			</div>
+		</div>
 	</nav>
 </header>
 <style></style>

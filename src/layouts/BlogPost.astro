@@ -1,10 +1,11 @@
 ---
+	import { SITE_DESCRIPTION } from "../config";
 	import Shell from "./Shell.astro";
 
 	export interface Props {
 		content: {
 			title: string;
-			description: string;
+			description?: string;
 			pubDate?: string;
 			updatedDate?: string;
 			heroImage?: string;
@@ -16,7 +17,7 @@
 	} = Astro.props;
 ---
 
-<Shell title={title} description={description}>
+<Shell title={title} description={description ? description : SITE_DESCRIPTION}>
 	<article>
 		{heroImage && (
 		<img width={720} height={360} src={heroImage} alt="" />

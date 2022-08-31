@@ -41,11 +41,13 @@
 </head>
 
 <body>
-    <Header title={title} />
-    <main>
-        <slot />
-    </main>
-    <Footer />
+    <div class="viewport flex flex-col min-h-screen justify-between overflow-x-hidden">
+        <Header title={title} />
+        <main>
+            <slot />
+        </main>
+        <Footer />
+    </div>
 </body>
 
 </html>
