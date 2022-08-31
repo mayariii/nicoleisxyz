@@ -2,7 +2,7 @@
 title: Month++ - Summer 2021 in Review ☀️
 layout: "../../layouts/BlogPost.astro"
 pubDate: "Sep 03 2021"
-heroImage: "/public/blog-images/hero-summer21review.jpeg"
+heroImage: "/hero-summer21review.jpeg"
 published: true
 ---
 

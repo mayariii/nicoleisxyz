@@ -2,7 +2,7 @@
 title: Share your work - why I'm starting a blog
 layout: "../../layouts/BlogPost.astro"
 pubDate: "Apr 13 2021"
-heroImage: "/public/blog-images/hero-shareyourwork.jpeg"
+heroImage: "/hero-shareyourwork.jpeg"
 published: true
 ---
 

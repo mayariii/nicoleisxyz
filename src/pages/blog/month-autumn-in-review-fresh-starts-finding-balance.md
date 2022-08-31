@@ -2,7 +2,7 @@
 title: "Month++ - Autumn in Review: Fresh starts & finding balance 🍂"
 layout: "../../layouts/BlogPost.astro"
 pubDate: "Nov 13 2021"
-heroImage: "/public/blog-images/hero-freshstarts.jpeg"
+heroImage: "/hero-freshstarts.jpeg"
 published: true
 ---
 

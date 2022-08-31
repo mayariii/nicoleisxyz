@@ -2,7 +2,7 @@
 title: My life system (2022) - how I organise my life and the tools I use (Notion, Todoist, Sunsama, GCal + more)
 layout: "../../layouts/BlogPost.astro"
 pubDate: "Jan 21 2022"
-heroImage: "/public/blog-images/hero-mylifesystem.png"
+heroImage: "/hero-mylifesystem.png"
 published: true
 ---
 

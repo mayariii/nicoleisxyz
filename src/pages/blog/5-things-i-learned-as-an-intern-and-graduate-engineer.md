@@ -2,7 +2,7 @@
 title: 5 things I learned as an intern and graduate engineer
 layout: "../../layouts/BlogPost.astro"
 pubDate: "Aug 01 2021"
-heroImage: "/public/blog-images/hero-5thingsengineer.jpeg"
+heroImage: "hero-5thingsengineer.jpeg"
 published: true
 ---
 

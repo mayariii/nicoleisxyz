@@ -2,7 +2,7 @@
 title: Month++ - May 2021 - Back on the ice & saying goodbye to Harry
 layout: "../../layouts/BlogPost.astro"
 pubDate: "Jun 11 2021"
-heroImage: "/public/blog-images/hero-sayinggoodbye.jpeg"
+heroImage: "/hero-sayinggoodbye.jpeg"
 published: true
 ---
 

@@ -1,9 +1,9 @@
 ---
 title: What I learned from waking up at 5AM
-slug: what-i-learned-from-waking-up-at-5am
-date_published: 2021-04-25T15:09:26.000Z
-date_updated: 2021-09-04T14:29:38.000Z
-tags: Self development
+layout: "../../layouts/BlogPost.astro"
+pubDate: "Apr 25 2021"
+heroImage: "/hero-5am.jpeg"
+published: true
 ---
 
 The past few weeks I’ve felt a bit out of alignment with myself, and to be honest, feeling a little burnt out. I was hearing my alarm at around 7am, snoozing it (sometimes unconsciously!), and then when I was actually awake I’d be scrolling scrolling scrolling. I’m sure a lot of people can relate.
