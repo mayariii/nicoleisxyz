@@ -5,7 +5,7 @@
     import { backgroundPrimary } from '../styles/styles';
     import { SITE_DESCRIPTION, SITE_TITLE } from '../config';
 
-import BasicScripts from '../components/core/BasicScripts.astro';
+    import BasicScripts from '../components/core/BasicScripts.astro';
 
 
 
@@ -20,32 +20,13 @@ import BasicScripts from '../components/core/BasicScripts.astro';
 
 <!DOCTYPE html>
 <html lang="en-us">
+
 <head>
     <BaseHead title={title} description={description} />
-    <style>
-        ul {
-            list-style-type: none;
-            padding: unset;
-        }
-
-        ul li {
-            display: flex;
-        }
-
-        ul li time {
-            flex: 0 0 130px;
-            font-style: italic;
-            color: #888;
-        }
-
-        ul li a:visited {
-            color: #8e32dc;
-        }
-    </style>
 </head>
 
 <body class={`flex h-full ${backgroundPrimary}`}>
-    <div class="viewport flex flex-col min-h-screen justify-between overflow-x-hidden">
+    <div class="viewport flex flex-col min-h-screen justify-between overflow-x-hidden w-full">
         <Header title={title} />
         <main>
             <slot />
