@@ -1,9 +1,10 @@
 ---
 	import { SITE_TITLE, SITE_DESCRIPTION } from '../config';
 	import Shell from '../layouts/Shell.astro';
-	import heroImg from '/hero-img.png'
+	import heroImg from '../../public/hero-img.png'
 	import { PencilIcon, HeartIcon, CodeBracketIcon, BriefcaseIcon } from '@heroicons/react/24/outline/index.js'
 	import { backgroundPrimary, backgroundPrimaryHover, borderDefault, iconSize4, strokeAccent, typographyAccent, typographyPrimary, typographySecondary } from '../styles/styles';
+	import { Image } from '@astrojs/image/components';
 ---
 
 <Shell title={SITE_TITLE} description={SITE_DESCRIPTION}>
@@ -47,7 +48,7 @@
 
 			</section>
 			<section class="flex items-center jusify-items-center w-full">
-				<img src={heroImg} alt='3d illustration of a girl sitting down looking at laptop with headphones on' />
+				<Image src={heroImg} alt='3d illustration of a girl sitting down looking at laptop with headphones on' />
 			</section>
 		</div>
 	</div>
