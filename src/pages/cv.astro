@@ -1,8 +1,30 @@
 ---
 	import { SITE_TITLE, SITE_DESCRIPTION } from '../config';
 	import Shell from '../layouts/Shell.astro';
+	import { SparklesIcon, ArrowTopRightOnSquareIcon } from '@heroicons/react/24/outline/index.js'
+	import { iconSize4, iconSize8, strokeAccent, typographyAccent, typographyPrimary, typographySecondary } from '../styles/styles';
+
 ---
 
 <Shell title={SITE_TITLE} description={SITE_DESCRIPTION}>
-	<h1>work page WIP</h1>
+	<div class="mt-2 pt-10 pb-20 px-4 sm:px-6 lg:pt-12 lg:pb-28 lg:px-8">
+		<div class="flex flex-col items-center max-w-7xl mx-auto text-center">
+			<h1 class={`text-3xl tracking-tight font-extrabold ${typographyPrimary} sm:text-4`}>
+				<SparklesIcon className={`inline ${iconSize8} mr-1 ${strokeAccent}`} aria-hidden="true" />I develop and
+				deliver
+			</h1>
+			<p class={`mt-3 max-w-2xl mx-auto text-xl ${typographySecondary} sm:mt-4`}>
+				Currently building cool HRTech as a Software Engineer at <a class={`${typographyAccent}`}
+					href='https://hipeople.io' target="_blank">HiPeople
+					<ArrowTopRightOnSquareIcon className={`inline ${iconSize4} mr-1`} aria-hidden="true" />
+				</a>.
+			</p>
+			<p class={`max-w-prose text-center mt-8 ${typographySecondary}`}>This page is under construction, but for now you
+				can check out good stuff I've been involved in throughout my career over on my <a
+					class={`${typographyAccent}`} href='https://www.polywork.com/nicoleanalisecox'
+					target="_blank">Polywork
+					<ArrowTopRightOnSquareIcon className={`inline ${iconSize4} mr-1`} aria-hidden="true" />
+				</a>profile.</p>
+		</div>
+	</div>
 </Shell>

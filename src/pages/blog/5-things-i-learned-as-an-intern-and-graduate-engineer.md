@@ -5,8 +5,8 @@ pubDate: "Aug 01 2021"
 heroImage: "/hero-5thingsengineer.jpeg"
 published: true
 tags: ['Career']
+excerpt: It’s the 3rd July 2017. After many applications, rejections, interviews, it’s finally
 ---
-
 
 It’s the 3rd July 2017. After many applications, rejections, interviews, it’s finally my first day as an engineering intern. Fast forward 2 years later, I level up to the graduate scheme as a graduate engineer. Add on another 2 years, and we are here, in the now. Software Engineer.
 

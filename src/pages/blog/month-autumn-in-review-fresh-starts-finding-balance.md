@@ -5,6 +5,7 @@ pubDate: "Nov 13 2021"
 heroImage: "/hero-freshstarts.jpeg"
 published: true
 tags: ['Life update']
+excerpt: That’s right, I’m reflecting on a whole season again because the past couple months have been WILD. Lots of new things;
 ---
 
 That’s right, I’m reflecting on a whole season again because the past couple months have been WILD. Lots of new things; let’s dig in.

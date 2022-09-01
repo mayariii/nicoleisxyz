@@ -1,8 +1,54 @@
 ---
-	import { SITE_TITLE, SITE_DESCRIPTION } from '../config';
-	import Shell from '../layouts/Shell.astro';
+    import { SITE_TITLE, SITE_DESCRIPTION } from '../config';
+    import Shell from '../layouts/Shell.astro';
+    import { FaceSmileIcon, ArrowTopRightOnSquareIcon } from '@heroicons/react/24/outline/index.js'
+    import { iconSize4, iconSize8, proseBlog, strokeAccent, typographyAccent, typographyPrimary, typographySecondary } from '../styles/styles';
+
 ---
 
 <Shell title={SITE_TITLE} description={SITE_DESCRIPTION}>
-	<h1>abbout page WIP</h1>
+    <div class="mt-2 pt-10 pb-20 px-4 sm:px-6 lg:pt-12 lg:pb-28 lg:px-8">
+        <div class="flex flex-col items-center max-w-7xl mx-auto text-center">
+            <h1 class={`text-3xl tracking-tight font-extrabold ${typographyPrimary} sm:text-4`}>
+                <FaceSmileIcon className={`inline ${iconSize8} mr-1 ${strokeAccent}`} aria-hidden="true" />About me
+            </h1>
+            <p class={`mt-3 max-w-2xl mx-auto text-xl ${typographySecondary} sm:mt-4`}>
+                British-Filipina in the UK. Neurodivergent and curious about lots of things. Everyday athlete /
+                competitive figure skater.
+            </p>
+            <section class="w-full flex flex-col items-center pt-8 lg:pt-12 ">
+                <div class={`md:max-w-prose px-8 ${proseBlog}`} >
+                    <!-- <img src={babyNicole} alt="young girl at computer desk"></img> -->
+                    <p>I think my creative/tech journey started off in the days of Windows 98 when I was this small! I
+                        loved playing around with programs like MS Paint, Publisher, Word Art, and loved making my
+                        school homework stand out. Throughout school and college my interest in digital work grew during
+                        GCSE Product Design and Digital Applications lessons, where I first learned about the design
+                        process, how to create a simple website using HTML, and entering the world of multimedia. I had
+                        a phase of being obsessed with creating Piczo websites, a.k.a home of the glittery graphics!</p>
+                    <!-- <img src={gradNicole} alt="women in graduate gown"></img> -->
+                    <p>University gave me the opportunity to combine creativity with deeper technical knowledge, with a
+                        degree in Product Design Engineering. It was here I understood the importance of the user in
+                        design, design fundamentals and a first glimpse into software engineering. Alongside studying I
+                        dived right into volunteering Media and Marketing for various university organisations.</p>
+                    <p>Since then, I've loooooved continous learning, and developed a huge interest in web development
+                        and coding. I have completed the #100DaysOfCode challenge, #365DaysOfCode and aiming for
+                        #1000DaysOfCode now! </p>
+                    <!-- <img src={codingNicole} alt="woman smiling in front of computer desk"></img> -->
+                    <p>I am intrigued by self-development topics and love to consume all the things about how we can be
+                        our best selves through self-improvement, mindset, learning and wellbeing.</p>
+                    <p>I'm also really proud to have raised a lot of money for charities. I've jumped out of a plane,
+                        ran a marathon, abseiled off a cathedral, and bungee jumped off a crane. Terrifying, but they
+                        did give me some new life perspectives - like anything is possible if you have 20 seconds of
+                        courage! I raised over £2000 for Mind the mental health charity - a subject that means a lot to
+                        me and that I have been aiming to normalise conversations about.</p>
+                    <!-- <img src={bungeeNicole} alt="woman bungee jumping"></img> -->
+                    <p>My interests and goals have been ever-growing but in a nutshell, my aim is growing myself,
+                        growing others and growing the world. 🌱 </p>
+                    <p>Oh and cats. Love them.</p>
+
+                    <p>I share my experiences + other things <a href="/blog/">on my blog</a>.</p>
+                </div>
+            </section>
+        </div>
+    </div>
 </Shell>

@@ -20,7 +20,9 @@ export const divideDefault = 'divide-slate-200 dark:divide-slate-800'
 
 // SIZING
 export const iconSize4 = 'h-4 w-4'
+export const iconSize5 = 'h-5 w-5'
 export const iconSize6 = 'h-6 w-6'
+export const iconSize8 = 'h-8 w-8'
 
 // LINKS
 export const linkBase = `block rounded-md py-2 px-3 text-base font-medium no-underline`
@@ -34,7 +36,8 @@ export const badgePrimary = 'bg-purple-100 text-purple-800 dark:bg-purple-800 da
 // PROSE
 export const proseBlog = `
 mx-auto px-8 sm:px-6 max-w-3xl 
-prose prose-lg lg:prose-xl
+
+prose 
 
 prose-p:text-slate-800
 dark:prose-p:text-white

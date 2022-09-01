@@ -5,6 +5,7 @@ pubDate: "Jun 11 2021"
 heroImage: "/hero-sayinggoodbye.jpeg"
 published: true
 tags: ['Life update']
+excerpt: After a long while (6 months for me) of no access to the rink, adult skaters are finally allowed back! It 
 ---
 
 ## Back on the ice

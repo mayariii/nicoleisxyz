@@ -5,6 +5,7 @@ pubDate: "Sep 03 2021"
 heroImage: "/hero-summer21review.jpeg"
 published: true
 tags: ['Life update']
+excerpt: It's been a while! I'll be honest, my intention was to write a review at the end of every month
 ---
 
 It's been a while! I'll be honest, my intention was to write a review at the end of every month, since my last post in May. Then came the end of June, then the end of July... and well, here we are with August gone by too! Where has the time gone?!

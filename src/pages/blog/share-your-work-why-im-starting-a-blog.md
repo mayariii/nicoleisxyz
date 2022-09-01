@@ -5,6 +5,7 @@ pubDate: "Apr 13 2021"
 heroImage: "/hero-shareyourwork.jpeg"
 published: true
 tags: ['Life update', 'Thoughts']
+excerpt: Welcome to my first *ever* blog post! I’m Nicole, a creative, multi-passionate engineer. I’m an English-Filipina
 ---
 
 Welcome to my first *ever* blog post!

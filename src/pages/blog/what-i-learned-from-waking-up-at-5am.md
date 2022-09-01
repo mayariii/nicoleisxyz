@@ -5,6 +5,7 @@ pubDate: "Apr 25 2021"
 heroImage: "/hero-5am.jpeg"
 published: true
 tags: ['Thoughts']
+excerpt: The past few weeks I’ve felt a bit out of alignment with myself, and to be honest, feeling a little burnt out. I was hearing my alarm
 ---
 
 The past few weeks I’ve felt a bit out of alignment with myself, and to be honest, feeling a little burnt out. I was hearing my alarm at around 7am, snoozing it (sometimes unconsciously!), and then when I was actually awake I’d be scrolling scrolling scrolling. I’m sure a lot of people can relate.
@@ -40,7 +41,7 @@ First conscious thought of the day was “omg it’s so dark?!”. I’m not sur
 
 The #5AMCoder challenge involves tweeting a photo showing we are up. I didn’t expect to me using my flash but it is what it is! It’s a good job Jonny has a sleep mask. It was nice knowing that other people were getting up at the same time too. I’m rooting for you internet strangers. 👏🏼
 
-![20210419_050043](__GHOST_URL__/content/images/2021/09/20210419_050043.jpg)
+![20210419_050043](https://nicoleisxyz-blogimages.s3.amazonaws.com/what-i-learned-from-waking-up-at-5am/20210419_050043.jpg)
 
 I went to brush my teeth and get ready for the morning. The cat is confused.
 
@@ -48,7 +49,7 @@ I headed into the living room and drank some cold water to try wake my insides u
 
 Wrote in my journal 3 things I’m grateful for, plus a brain dump of anything else on my mind. It’s only 5:30am at this point and it feels like I’ve been up for ages.
 
-![20210419_053414](__GHOST_URL__/content/images/2021/09/20210419_053414.jpg)
+![20210419_053414](https://nicoleisxyz-blogimages.s3.amazonaws.com/what-i-learned-from-waking-up-at-5am/20210419_053414.jpg)
 
 I’m currently doing #365DaysOfCode so I spent around 25 minutes working on a Front End Mentor project. I was surprisingly…focused?
 
@@ -58,7 +59,7 @@ Light has a big impact on this. He mentions that our circadian rhythm responds b
 
 What a glorious day! It was mega cold but it was just so nice to have the sun in my face listening to the birds. I feel so ✨ energised ✨.
 
-![20210419_064254](__GHOST_URL__/content/images/2021/09/20210419_064254.jpg)
+![20210419_064254](https://nicoleisxyz-blogimages.s3.amazonaws.com/what-i-learned-from-waking-up-at-5am/20210419_064254.jpg)
 
 It’s 7AM and I’m really hungry. I usually have breakfast at around 9AM-10AM. On the plus side I can start work earlier and finish earlier!
 
@@ -68,7 +69,7 @@ Went to sleep at around 9:30pm and fell asleep around 20 minutes later!
 
 ## Day 2 - Tuesday
 
-![20210420_050016-1](__GHOST_URL__/content/images/2021/09/20210420_050016-1.jpg)
+![20210420_050016-1](https://nicoleisxyz-blogimages.s3.amazonaws.com/what-i-learned-from-waking-up-at-5am/20210420_050016-1.jpg)
 
 Let’s get this bread! Actually felt more refreshed today, probably because I managed to get about 2 hours more sleep than the night before.
 
@@ -78,7 +79,7 @@ I also set my sunrise light to be on when I woke up this time so I think that he
 
 Meditation, check. Journalling, check. Coding, check. Watch the sunrise, check.
 
-![20210420_064938](__GHOST_URL__/content/images/2021/09/20210420_064938.jpg)
+![20210420_064938](https://nicoleisxyz-blogimages.s3.amazonaws.com/what-i-learned-from-waking-up-at-5am/20210420_064938.jpg)
 
 Managed to get a lot of stuff done in the first hour of work time which is cool because I usually prefer to do my focused work in the afternoon as I feel like my brain has fully woken up by then. But now I feel much more ready to go by the time I start work!
 
@@ -86,13 +87,13 @@ It’s 4:30pm and I’m flagging a bit! Resisting the urge to nap.
 
 ## Day 3 - Wednesday
 
-![20210421_050049](__GHOST_URL__/content/images/2021/09/20210421_050049.jpg)
+![20210421_050049](https://nicoleisxyz-blogimages.s3.amazonaws.com/what-i-learned-from-waking-up-at-5am/20210421_050049.jpg)
 
 Today has been the hardest day to wake up so far… but we move! Saw that today was also a bit of a struggle for some of the other #5amCoders. I’m not alone. 😌
 
 I enioyed having a good amount of time to mentally prepare for a meeting first thing in the morning. Feeling very happy. Surprisingly feeling energised still for the rest of the day.
 
-![20210422_063831](__GHOST_URL__/content/images/2021/09/20210422_063831.jpg)
+![20210422_063831](https://nicoleisxyz-blogimages.s3.amazonaws.com/what-i-learned-from-waking-up-at-5am/20210422_063831.jpg)
 
 One thing I’m enjoying is winding down when the sun is setting. Usually, I’m still coding in the evening at my desk and normally turn around to look out and window and be like “oh, it’s dark now” 😂. So an evening bask in the sun is GLORIOUS.
 
@@ -100,7 +101,7 @@ Went to sleep about 30 mins later than I’d liked, but this is still a massive 
 
 ## Day 4 - Thursday
 
-![20210422_050033](__GHOST_URL__/content/images/2021/09/20210422_050033.jpg)
+![20210422_050033](https://nicoleisxyz-blogimages.s3.amazonaws.com/what-i-learned-from-waking-up-at-5am/20210422_050033.jpg)
 
 Was a bit groggy when I got up but it did wear off a couple minutes after being up and about.
 
@@ -108,19 +109,19 @@ Today I received the new book of my favourite poet, April Green, called ‘Reach
 
 > “One day you will discover that happiness is never going to be a moment you reach, but a thousand different moments you choose it to be.” - April Green
 
-![20210422_162246](__GHOST_URL__/content/images/2021/09/20210422_162246.jpg)
+![20210422_162246](https://nicoleisxyz-blogimages.s3.amazonaws.com/what-i-learned-from-waking-up-at-5am/20210422_162246.jpg)
 
 It really feels great to be starting work earlier and finishing earlier. My evenings feel so long, especially when I get my coding done before work.
 
 I also went for a small walk when I went outside this morning and oh my goodness, it was just so blissful. I am truly feeling grateful for my surroundings, nature, the blue sky. Today I’m noticing the little things more. I feel present.
 
-![20210422_063403](__GHOST_URL__/content/images/2021/09/20210422_063403.jpg)
+![20210422_063403](https://nicoleisxyz-blogimages.s3.amazonaws.com/what-i-learned-from-waking-up-at-5am/20210422_063403.jpg)
 
 I spent a good moment this evening sitting in golden hour, just looking out the window at the sunset. A moment that can be described by what Pete Walker in the book ‘Complex PTSD: From Surviving to Thriving’ as a numinous experience.
 
 > “A powerful moving feeling of well-being accompanied by a sense that there is a positive, benign force behind the universe, as well as within yourself. This in turn sometimes brings enough grace with it, that you have a profound feeling that you are essentially worthwhile, that you belong in this life, and that life is a gift.”- Pete Walker
 
-![20210422_195818-2](__GHOST_URL__/content/images/2021/09/20210422_195818-2.jpg)
+![20210422_195818-2](https://nicoleisxyz-blogimages.s3.amazonaws.com/what-i-learned-from-waking-up-at-5am/20210422_195818-2.jpg)
 
 ## Day 5 - Friday
 
@@ -128,7 +129,7 @@ My final day of the #5amCoders challenge.
 
 Alarm went off mid-dream so felt pretty crispy when I got out of bed. I am up though, I made it! Happy Friday!! I am pretty proud of myself for not snoozing my alarm for the past 5 days, and proud of my fellow #5amCoders too!
 
-![20210423_050013](__GHOST_URL__/content/images/2021/09/20210423_050013.jpg)
+![20210423_050013](https://nicoleisxyz-blogimages.s3.amazonaws.com/what-i-learned-from-waking-up-at-5am/20210423_050013.jpg)
 
 ## How I got up early - what helped me
 
