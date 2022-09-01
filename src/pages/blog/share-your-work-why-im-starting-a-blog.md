@@ -4,6 +4,7 @@ layout: "../../layouts/BlogPost.astro"
 pubDate: "Apr 13 2021"
 heroImage: "/hero-shareyourwork.jpeg"
 published: true
+tags: ['Life update', 'Thoughts']
 ---
 
 Welcome to my first *ever* blog post!
@@ -25,4 +26,4 @@ Secondly, it will be a place to ‘share my work’. I first came across the boo
 > *“One little blog post is nothing on its own, but publish a thousand blog posts over a decade, and it turns into your life’s work.” - Austin Kleon*
 
 I’m super excited to have a space to share my thoughts, notes, current and future learning. In the words of Austin Kleon, “**become a documentarian of what you do**“.
-[![](https://img.buymeacoffee.com/button-api/?text=Buy me a coffee&emoji=🌸&slug=nicoleac&button_colour=BD5FFF&font_colour=ffffff&font_family=Inter&outline_colour=000000&coffee_colour=FFDD00)](https://www.buymeacoffee.com/nicoleac)
+![](https://img.buymeacoffee.com/button-api/?text=Buy%20me%20a%20coffee&amp;emoji=%F0%9F%8C%B8&amp;slug=nicoleac&amp;button_colour=BD5FFF&amp;font_colour=ffffff&amp;font_family=Inter&amp;outline_colour=000000&amp;coffee_colour=FFDD00)

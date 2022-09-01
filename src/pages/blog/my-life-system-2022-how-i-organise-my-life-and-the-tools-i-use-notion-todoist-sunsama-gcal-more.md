@@ -4,6 +4,7 @@ layout: "../../layouts/BlogPost.astro"
 pubDate: "Jan 21 2022"
 heroImage: "/hero-mylifesystem.png"
 published: true
+tags: ['Productivity']
 ---
 
 Over the years I have tried many different productivity tools trying to find ✨ the perfect one ✨. Often I would spend hours or even days re-organising my life into only one app or following one method I'd read about, then soon after, the use would slowly deteriorate. Bah! How frustrating.

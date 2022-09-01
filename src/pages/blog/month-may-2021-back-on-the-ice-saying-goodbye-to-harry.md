@@ -4,6 +4,7 @@ layout: "../../layouts/BlogPost.astro"
 pubDate: "Jun 11 2021"
 heroImage: "/hero-sayinggoodbye.jpeg"
 published: true
+tags: ['Life update']
 ---
 
 ## Back on the ice

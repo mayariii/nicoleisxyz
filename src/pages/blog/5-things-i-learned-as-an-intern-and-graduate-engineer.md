@@ -2,8 +2,9 @@
 title: 5 things I learned as an intern and graduate engineer
 layout: "../../layouts/BlogPost.astro"
 pubDate: "Aug 01 2021"
-heroImage: "hero-5thingsengineer.jpeg"
+heroImage: "/hero-5thingsengineer.jpeg"
 published: true
+tags: ['Career']
 ---
 
 
@@ -65,6 +66,7 @@ Contributing your time to volunteer is also very rewarding – check to see if y
 ![](__GHOST_URL__/content/images/2021/09/58766036_10218716242682363_599747626895671296_n.jpg)![](__GHOST_URL__/content/images/2021/09/received_1143780612457831.jpeg)![](__GHOST_URL__/content/images/2021/09/20180723_225950.jpg)![](__GHOST_URL__/content/images/2021/09/FB_IMG_1546253006411.jpg)![](__GHOST_URL__/content/images/2021/09/1572570109671_picture.jpg)![](__GHOST_URL__/content/images/2021/09/IMG-20191205-WA0017.jpg)
 Online community has also been a huge motivation for me over the last year. Connecting and sharing experiences with people in engineering/tech, especially other asian & mixed-asian women, really helped to feel a sense of belonging. Representation matters!!
 ![](__GHOST_URL__/content/images/2021/09/Screenshot_20210801-154953_Instagram.jpg)
+
 ## The first no should not come from you
 
 > “The most powerful words in the universe are the ones you say to yourself.” - Marie Forleo
@@ -83,4 +85,4 @@ Advocate for yourself and your abilities. Take up space. You belong!
 
 > “There can be no significant change in the world unless we first have the courage to change ourselves. In order to change ourselves, we must first believe we can.” - Marie Forleo
 
-![](__GHOST_URL__/content/images/2021/09/1603143665493.jpeg)[![](https://img.buymeacoffee.com/button-api/?text=Buy me a coffee&emoji=🌸&slug=nicoleac&button_colour=BD5FFF&font_colour=ffffff&font_family=Inter&outline_colour=000000&coffee_colour=FFDD00)](https://www.buymeacoffee.com/nicoleac)
+![](https://img.buymeacoffee.com/button-api/?text=Buy%20me%20a%20coffee&amp;emoji=%F0%9F%8C%B8&amp;slug=nicoleac&amp;button_colour=BD5FFF&amp;font_colour=ffffff&amp;font_family=Inter&amp;outline_colour=000000&amp;coffee_colour=FFDD00)

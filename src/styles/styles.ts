@@ -28,3 +28,55 @@ export const linkPrimary = `${linkBase} ${typographyAccent}`
 export const linkHeader = `${linkBase} ${typographySecondary}`
 export const linkHeaderCurrent = `${linkBase} ${typographyAccent} font-medium`
 
+// BADGE
+export const badgePrimary = 'bg-purple-100 text-purple-800 dark:bg-purple-800 dark:text-purple-200'
+
+// PROSE
+export const proseBlog = `
+mx-auto px-8 sm:px-6 max-w-3xl 
+prose prose-lg lg:prose-xl
+
+prose-p:text-slate-800
+dark:prose-p:text-white
+
+prose-headings:font-heading 
+prose-headings:leading-tighter 
+prose-headings:tracking-tighter 
+prose-headings:font-bold 
+prose-headings:text-slate-800
+dark:prose-headings:text-white
+
+prose-img:rounded-md 
+prose-img:shadow-lg
+
+prose-a:text-indigo-600
+dark:prose-a:text-indigo-400
+hover:prose-a:text-indigo-400
+
+prose-em:text-slate-700
+dark:prose-em:text-slate-400
+
+prose-strong:text-indigo-700
+dark:prose-strong:text-indigo-400
+
+prose-li:text-slate-700
+dark:prose-li:text-slate-400
+prose-ul:list-inside 
+prose-ol:list-inside 
+prose-li:marker:text-indigo-600
+dark: prose-li:marker:text-indigo-500
+
+prose-blockquote:text-slate-500 
+dark:prose-blockquote:text-slate-400
+prose-blockquote:border-indigo-500
+prose-blockquote:font-light
+
+`
+
+
+// `md:max-w-prose px-8 prose prose-headings:text-indigo-700
+//                 prose-a:text-indigo-600 hover:prose-a:text-indigo-400
+//                  prose-ul:list-inside prose-ol:list-inside prose-li:marker:text-indigo-600
+//                 prose-img:w-full prose-img:border prose-img:p-1
+//                  `
+

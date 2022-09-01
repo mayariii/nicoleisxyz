@@ -4,6 +4,7 @@ layout: "../../layouts/BlogPost.astro"
 pubDate: "Nov 13 2021"
 heroImage: "/hero-freshstarts.jpeg"
 published: true
+tags: ['Life update']
 ---
 
 That’s right, I’m reflecting on a whole season again because the past couple months have been WILD. Lots of new things; let’s dig in.
@@ -54,25 +55,20 @@ I found it helpful to write out a mindmap of everything I had going on one page,
 
 Leaving my job meant using my remaining holiday days, and so we took the opportunity to have a 3-day getaway to chill out, reset and recharge before starting my new role. I found [an amazing little Airbnb in Estepona](https://www.airbnb.co.uk/rooms/42213330?adults=2&amp;check_in=2021-10-25&amp;check_out=2021-10-27&amp;translate_ugc=false&amp;federated_search_id=d0444acd-4213-4932-ac57-d6c3be8bf4db&amp;source_impression_id=p3_1632862475_Vm7dFGV4l2ZiRjQk&amp;guests=1) (Spain) that was literally RIGHT next to the sea! A well-need, super refreshing break indeed.
 ![](__GHOST_URL__/content/images/2021/11/image-4.png)![](__GHOST_URL__/content/images/2021/11/image-5.png)Visit to the Orchidarium!![](__GHOST_URL__/content/images/2021/11/image-7.png)Sunrise Yoga!
+
 ## Other notable things I found cool:
 
--	Surpassed 300 Days of Code!
-
--	Had a phone upgrade - switched from Android to Apple
-
--	Discovered [Obsidian](https://obsidian.md/)
-
--	Got curious about digital gardening+ loved the idea of things not being perfect but evolving ([an amazing example from Maggie Appleton](https://maggieappleton.com/garden/))
-
--	[Cosy Study Tools](https://www.instagram.com/p/CUIWrWVg6OR/), curated by [@codingwithki](https://www.instagram.com/codingwithki)
-
--	Youtuber [Rowena Tsai](https://www.youtube.com/c/RowenaTsai)
-
--	[Structured app](https://structured.today/) for timeblocking (iOS)
-
--	I lifted more than my bodyweight for the first time! (back squats, sumo deadlifts and deadlifts)
+* Surpassed 300 Days of Code!
+* Had a phone upgrade - switched from Android to Apple
+* Discovered [Obsidian](https://obsidian.md/)
+* Got curious about digital gardening+ loved the idea of things not being perfect but evolving ([an amazing example from Maggie Appleton](https://maggieappleton.com/garden/))
+* [Cosy Study Tools](https://www.instagram.com/p/CUIWrWVg6OR/), curated by [@codingwithki](https://www.instagram.com/codingwithki)
+* Youtuber [Rowena Tsai](https://www.youtube.com/c/RowenaTsai)
+* [Structured app](https://structured.today/) for timeblocking (iOS)
+* I lifted more than my bodyweight for the first time! (back squats, sumo deadlifts and deadlifts)
 ![](__GHOST_URL__/content/images/2021/11/image-2.png)![](__GHOST_URL__/content/images/2021/11/image-3.png)
 ---
 
 As the days get darker, the weather gets colder and we move into winter potato mode, take care of yourselves folks 💜 (+ it'll be Christmas before we know it 🎄)
-[![](https://img.buymeacoffee.com/button-api/?text=Buy me a coffee&emoji=🌸&slug=nicoleac&button_colour=BD5FFF&font_colour=ffffff&font_family=Inter&outline_colour=000000&coffee_colour=FFDD00)](https://www.buymeacoffee.com/nicoleac)
+![](https://img.buymeacoffee.com/button-api/?text=Buy%20me%20a%20coffee&amp;emoji=%F0%9F%8C%B8&amp;slug=nicoleac&amp;button_colour=BD5FFF&amp;font_colour=ffffff&amp;font_family=Inter&amp;outline_colour=000000&amp;coffee_colour=FFDD00)
+

@@ -1,31 +1,42 @@
 ---
 	import { SITE_DESCRIPTION } from "../config";
 	import Shell from "./Shell.astro";
+	import { badgePrimary, proseBlog, typographyPrimary, typographySecondary } from '../styles/styles';
+	import { Image } from '@astrojs/image/components';
 
 	export interface Props {
 		content: {
 			title: string;
 			description?: string;
+			excerpt?: string;
 			pubDate?: string;
 			updatedDate?: string;
 			heroImage?: string;
+			tags?: string[]
 		};
 	}
 
 	const {
-		content: { title, description, pubDate, updatedDate, heroImage },
+		content: { title, description, excerpt, pubDate, heroImage, tags },
 	} = Astro.props;
 ---
 
 <Shell title={title} description={description ? description : SITE_DESCRIPTION}>
-	<article>
+	<article class={`flex flex-col items-center mt-8`}>
+		{pubDate && <time class={`${typographySecondary}`}>{pubDate}</time>}
+		<h1 class={`${typographyPrimary} px-4 mt-4 sm:px-6 max-w-3xl mx-auto text-center text-4xl md:text-5xl font-bold
+			leading-tighter tracking-tighter mb-8 font-heading`}>
+			{title}</h1>
+		{tags.map((tag: string) =>
+		<p
+			class={`inline-flex items-center mr-2 px-2.5 py-0.5 rounded-full text-xs font-medium ${badgePrimary}`}>
+			{tag}</p>)}
 		{heroImage && (
-		<img width={720} height={360} src={heroImage} alt="" />
+		<Image src={heroImage} width={900} aspectRatio={'16:9'} class={`md:max-w-prose object-cover mb-8 max-w-full
+			lg:max-w-6xl mx-auto mt-4 sm:rounded-md`} alt={`hero image for ${title}`} />
 		)}
-		<h1 class="title">{title}</h1>
-		{pubDate && <time>{pubDate}</time>}
-		{updatedDate && <div>Last updated on <time>{updatedDate}</time></div>}
-		<hr />
-		<slot />
+		<section class={`${proseBlog}`}>
+			<slot />
+		</section>
 	</article>
 </Shell>

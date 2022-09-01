@@ -4,6 +4,7 @@ layout: "../../layouts/BlogPost.astro"
 pubDate: "Sep 03 2021"
 heroImage: "/hero-summer21review.jpeg"
 published: true
+tags: ['Life update']
 ---
 
 It's been a while! I'll be honest, my intention was to write a review at the end of every month, since my last post in May. Then came the end of June, then the end of July... and well, here we are with August gone by too! Where has the time gone?!
@@ -94,4 +95,4 @@ I got curious and pretty much immediately fell in love with the speediness and U
 - Be more intentional about relaxation time so I don't burn out! 💤
 - Be consistent with skating and fitness progression - keep showing up 🏋🏻‍♀️
 
-[![](https://img.buymeacoffee.com/button-api/?text=Buy me a coffee&emoji=🌸&slug=nicoleac&button_colour=BD5FFF&font_colour=ffffff&font_family=Inter&outline_colour=000000&coffee_colour=FFDD00)](https://www.buymeacoffee.com/nicoleac)
+![](https://img.buymeacoffee.com/button-api/?text=Buy%20me%20a%20coffee&amp;emoji=%F0%9F%8C%B8&amp;slug=nicoleac&amp;button_colour=BD5FFF&amp;font_colour=ffffff&amp;font_family=Inter&amp;outline_colour=000000&amp;coffee_colour=FFDD00)

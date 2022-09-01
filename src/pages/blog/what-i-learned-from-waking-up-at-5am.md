@@ -4,6 +4,7 @@ layout: "../../layouts/BlogPost.astro"
 pubDate: "Apr 25 2021"
 heroImage: "/hero-5am.jpeg"
 published: true
+tags: ['Thoughts']
 ---
 
 The past few weeks I’ve felt a bit out of alignment with myself, and to be honest, feeling a little burnt out. I was hearing my alarm at around 7am, snoozing it (sometimes unconsciously!), and then when I was actually awake I’d be scrolling scrolling scrolling. I’m sure a lot of people can relate.
@@ -144,4 +145,4 @@ Starting off the day with well helped me to have a better day later too; feeling
 I would really like to continue waking up at 5AM during weekdays. Motivation and energy levels are going to fluctuate, but I can really see the benefits of making the most of the time when the world is sleeping.
 
 I am so grateful for this challenge; it was the reset I needed.
-[![](https://img.buymeacoffee.com/button-api/?text=Buy me a coffee&emoji=🌸&slug=nicoleac&button_colour=BD5FFF&font_colour=ffffff&font_family=Inter&outline_colour=000000&coffee_colour=FFDD00)](https://www.buymeacoffee.com/nicoleac)
+![](https://img.buymeacoffee.com/button-api/?text=Buy%20me%20a%20coffee&amp;emoji=%F0%9F%8C%B8&amp;slug=nicoleac&amp;button_colour=BD5FFF&amp;font_colour=ffffff&amp;font_family=Inter&amp;outline_colour=000000&amp;coffee_colour=FFDD00)
