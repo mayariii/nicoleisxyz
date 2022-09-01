@@ -2,7 +2,12 @@
     import BaseHead from '../components/BaseHead.astro';
     import Header from '../components/Header.astro';
     import Footer from '../components/Footer.astro';
+    import { backgroundPrimary } from '../styles/styles';
     import { SITE_DESCRIPTION, SITE_TITLE } from '../config';
+
+import BasicScripts from '../components/core/BasicScripts.astro';
+
+
 
     export interface Props {
         title: string;
@@ -15,7 +20,6 @@
 
 <!DOCTYPE html>
 <html lang="en-us">
-
 <head>
     <BaseHead title={title} description={description} />
     <style>
@@ -40,7 +44,7 @@
     </style>
 </head>
 
-<body>
+<body class={`flex h-full ${backgroundPrimary}`}>
     <div class="viewport flex flex-col min-h-screen justify-between overflow-x-hidden">
         <Header title={title} />
         <main>
@@ -48,6 +52,7 @@
         </main>
         <Footer />
     </div>
+    <BasicScripts />
 </body>
 
 </html>
