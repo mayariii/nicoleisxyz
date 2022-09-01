@@ -1,8 +1,54 @@
 ---
 	import { SITE_TITLE, SITE_DESCRIPTION } from '../config';
 	import Shell from '../layouts/Shell.astro';
+	import heroImg from '../../public/hero-img.png'
+	import { PencilIcon, HeartIcon, CodeBracketIcon, BriefcaseIcon } from '@heroicons/react/24/outline/index.js'
+	import { backgroundPrimary, backgroundPrimaryHover, borderDefault, iconSize4, strokeAccent, typographyAccent, typographyPrimary, typographySecondary } from '../styles/styles';
 ---
 
 <Shell title={SITE_TITLE} description={SITE_DESCRIPTION}>
-	<h1>🧑‍🚀 Hello, Astronaut!</h1>
+	<div class="flex h-full">
+		<div class="mt-2 lg:px-20 grid grid-cols-1 lg:grid-cols-2 items-center">
+			<section
+				class="px-8 sm:px-8 xl:pr-16 mx-auto max-w-7xl w-full h-full pt-8 pb-0 text-center items-center lg:text-left flex justify-center flex-col lg:items-start">
+				<h1 class={`text-4xl tracking-tight font-bold ${typographyPrimary} sm:text-5xl md:text-6xl lg:text-5xl
+					xl:text-6xl`}>
+					hello! 👋 <br /> i'm <span class={`inline ${typographyAccent}`}>{' nicole'}</span>
+				</h1>
+				<p class={`mt-5 max-w-sm text-sm ${typographySecondary} sm:text-s md:mt-5 md:max-w-3xl lg:max-w-4xl`}>
+					i'm happy you're here!
+					<HeartIcon className={`inline ${iconSize4} mb-1 mr-1 ${strokeAccent}`} aria-hidden="true" /><br />
+					welcome to my little corner of the internet.<br /> you can find out more about me <a href='/about/'
+						class={typographyAccent}>here</a>;
+					<br />or take a look around below!
+				</p>
+				<div class="mt-10 sm:flex sm:justify-center lg:justify-start">
+					<span class="inline-flex shadow-sm rounded-md">
+						<a href='/blog/' class={`relative inline-flex items-center px-4 py-2 rounded-l-md border
+							${borderDefault} ${backgroundPrimary} text-xs font-medium ${typographyPrimary}
+							${backgroundPrimaryHover}`}>
+							<PencilIcon className={`block mr-1 ${iconSize4} ${strokeAccent}`} aria-hidden="true" />
+							writing
+						</a>
+						<a href='/portfolio/' class={`-ml-px relative inline-flex items-center px-4 py-2 border
+							${borderDefault} ${backgroundPrimary} text-xs font-medium ${typographyPrimary}
+							${backgroundPrimaryHover}`}>
+							<CodeBracketIcon className={`block mr-1 ${iconSize4} ${strokeAccent}`} aria-hidden="true" />
+							coding
+						</a>
+						<a href='/cv/' class={`-ml-px relative inline-flex items-center px-4 py-2 rounded-r-md border
+							${borderDefault} ${backgroundPrimary} text-xs font-medium ${typographyPrimary}
+							${backgroundPrimaryHover}`}>
+							<BriefcaseIcon className={`block mr-1 ${iconSize4} ${strokeAccent}`} aria-hidden="true" />
+							working
+						</a>
+					</span>
+				</div>
+
+			</section>
+			<section class="flex items-center jusify-items-center w-full">
+				<img src={heroImg} alt='3d illustration of a girl sitting down looking at laptop with headphones on' />
+			</section>
+		</div>
+	</div>
 </Shell>
