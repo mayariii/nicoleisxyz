@@ -1,8 +1,10 @@
 ---
+	import React from 'react'
 	import HeaderLink from './HeaderLink.astro';
+	import MenuItems from './NavMenuMobile';
 	import Logo from './Logo.astro';
-	import { ArrowTopRightOnSquareIcon, EnvelopeIcon } from '@heroicons/react/24/outline/'
-	import { backgroundPrimary, hoverUIAccent, typographyAccent, typographyPrimaryInverted, UIAccent } from '../styles/styles';
+	import { ArrowTopRightOnSquareIcon, EnvelopeIcon } from '@heroicons/react/24/outline/index.js'
+	import { backgroundPrimary, hoverUIAccent, typographyPrimaryInverted, UIAccent} from '../styles/styles';
 
 
 	const pages = [
@@ -15,29 +17,31 @@
 ---
 
 <header>
-	<nav>
-		<div class={`shadow z-50 ${backgroundPrimary} `}>
-			<div class="max-w-7xl mx-auto px-2 sm:px-6 lg:px-8">
-				<div class="relative flex items-center justify-between h-16">
-					<div class="flex space-x-4 items-center">
+	<nav class={`shadow z-50 ${backgroundPrimary}`}>
+		<div class={`max-w-7xl mx-auto px-2 sm:px-6 lg:px-8`}>
+			<div class={`relative flex items-center justify-between h-16`}>
+				<MenuItems menuItems={pages}/>
+				<div class={`flex-1 flex items-center justify-center sm:items-stretch sm:justify-start`}>
+					<div class={`flex-shrink-0 flex items-center`}>
 						<a href="/">
 							<Logo />
 						</a>
-
-						{pages.map(page => <HeaderLink href={page.href} target={page.icon ? '_blank' : '_self' }>
-							{page.name}{page.icon
-							&& <span class="p-1">
-								<page.icon className="inline h-4 w-4 text-gray-500" aria-hidden="true" />
-							</span>}</HeaderLink>)}
 					</div>
-					<a href="mailto:hello@nicoleis.xyz" aria-label="send me an email to hello@nicoleis.xyz"
-						class={`inline-flex items-center p-1 border border-transparent rounded-full shadow-sm
-						${typographyPrimaryInverted} ${UIAccent} ${hoverUIAccent} ml-10 space-x-4`}>
-						<EnvelopeIcon className="h-5 w-5" />
-					</a>
+					<div class={"hidden sm:block sm:ml-6"}>
+						<div class={"flex space-x-4 items-center"}>
+							{pages.map(page => <HeaderLink href={page.href} target={page.icon ? "_blank" : "_self" }>
+								{page.name}{page.icon
+								&& <span class="p-1">
+									<page.icon className={"inline h-4 w-4 text-gray-500"}aria-hidden="true" />
+								</span>}</HeaderLink>)}
+						</div>
+					</div>
 				</div>
+				<a href="mailto:hello@nicoleis.xyz" aria-label="send me an email to hello@nicoleis.xyz"
+					class={`inline-flex items-center p-1 border border-transparent rounded-full shadow-sm ${typographyPrimaryInverted} ${UIAccent} ${hoverUIAccent} ml-10 space-x-4`}>
+					<EnvelopeIcon className="h-5 w-5" />
+				</a>
 			</div>
 		</div>
 	</nav>
 </header>
-<style></style>
