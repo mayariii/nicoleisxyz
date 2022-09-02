@@ -7,11 +7,11 @@
         localStorage.theme === "dark" ||
         (!("theme" in localStorage))
     ) {
-        document.documentElement.classList.add("dark");
-        document.getElementById("theme-light")?.classList.add("hidden");
+        document.documentElement.classList.add("light");
+        document.getElementById("theme-dark")?.classList.add("hidden");
     } else {
         document.documentElement.classList.remove("dark");
-        document.getElementById("theme-dark")?.classList.add("hidden");
+        document.getElementById("theme-light")?.classList.add("hidden");
     }
 
     function attachEvent(selector, event, fn) {
