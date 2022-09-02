@@ -1,6 +1,8 @@
-### nicoleisxyz
+### nicoleisxyz 
 
-Personal site and blog built with Astro 🚀 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/56b32e82-211e-4ca9-afbb-0640a916716f/deploy-status)](https://app.netlify.com/sites/nicoleis/deploys)
+
+Personal site and blog - originally built with Gatsby, recently migrated to Astro 🚀 
 
 ## 🧞 Commands
 
