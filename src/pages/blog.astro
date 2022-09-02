@@ -1,8 +1,10 @@
 ---
 	import Shell from '../layouts/Shell.astro';
 	import { SITE_TITLE, SITE_DESCRIPTION } from '../config';
-	import { CloudIcon, SparklesIcon } from '@heroicons/react/24/outline/index.js'
-	import { iconSize8, strokeAccent, backgroundSecondary, badgePrimary, hoverTypographyAccent, iconSize6, typographyPrimary, typographySecondary } from '../styles/styles';
+	import { CloudIcon } from '@heroicons/react/24/outline/index.js'
+	import { backgroundSecondary, badgePrimary, hoverTypographyAccent, typographyPrimary, typographySecondary } from '../styles/styles';
+	import PageHeader from '../components/PageHeader.astro';
+	import PageContentShell from '../components/PageContentShell.astro';
 
 	// Use Astro.glob() to fetch all posts, and then sort them by date.
 	const posts = (await Astro.glob('./blog/*.{md,mdx}')).sort(
@@ -11,22 +13,18 @@
 ---
 
 <Shell title={SITE_TITLE} description={SITE_DESCRIPTION}>
-	<div class="relative mt-2 pt-10 pb-20 px-4 sm:px-6 lg:pt-12 lg:pb-28 lg:px-8">
+	<PageContentShell>
 		<div class="relative max-w-7xl mx-auto">
-			<div class="text-center">
-				<h1 class={`text-3xl tracking-tight font-extrabold ${typographyPrimary} sm:text-4`}>
-				<CloudIcon className={`inline ${iconSize8} mr-1 ${strokeAccent}`} aria-hidden="true" />My thoughts uploaded
-			</h1>
-			<p class={`mt-3 max-w-2xl mx-auto text-xl ${typographySecondary} sm:mt-4`}>
-				Sharing my experiences navigating adulthood, special interests, career and life!
-			</p>
-			</div>
+			<PageHeader headerContent={{heading: 'My thoughts uploaded' ,
+				subHeading: 'Sharing my experiences navigating adulthood, special interests, career and life!' ,
+				pageIcon: CloudIcon}} />
 			<section class={`mt-12 mx-auto grid gap-5 lg:grid-cols-3 lg:max-w-none`}>
 				{posts.map((post) => (post.frontmatter.published &&
 				<div class={`${backgroundSecondary} flex flex-col rounded-lg h-full`}>
 
-					<img class="h-52 w-full object-cover rounded-t-lg" src={post.frontmatter.heroImage ? post.frontmatter.heroImage
-						: '../../public/hero-img.png' } alt={`main image for ${post.frontmatter.title}`} />
+					<img class="h-52 w-full object-cover rounded-t-lg" src={post.frontmatter.heroImage ?
+						post.frontmatter.heroImage : '../../public/hero-img.png' } alt={`main image for
+						${post.frontmatter.title}`} />
 
 					<div class={`p-6 flex flex-col justify-items-stretch`}>
 
@@ -67,5 +65,5 @@
 				))}
 			</section>
 		</div>
-	</div>
+	</PageContentShell>
 </Shell>

@@ -3,14 +3,16 @@
 	import Shell from '../layouts/Shell.astro';
 	import { CodeBracketIcon, PuzzlePieceIcon, ArrowTopRightOnSquareIcon, EyeIcon } from '@heroicons/react/24/outline/index.js'
 	import { backgroundSecondary, iconSize5, iconSize6, iconSize8, strokeAccent, typographyAccent, typographyPrimary, typographyPrimaryInverted, typographySecondary, UIAccent } from '../styles/styles';
+	import PageHeader from '../components/PageHeader.astro';
+	import PageContentShell from '../components/PageContentShell.astro';
 
 	const projects = [{
-			name: 'nicoleis.xyz',
-			description: 'This website! A continual work in progress, made with love.💜 Originally built with Gatsby, migrated to Astro, and styled with Tailwind CSS.',
-			icon: CodeBracketIcon,
-			href:'https://github.com/nicoleanalisecox/nicoleisxyz',
-			skills: [{ icon: CodeBracketIcon, name: 'Astro w/ React' }, { icon: CodeBracketIcon, name: 'Tailwind' }, { icon: CodeBracketIcon, name: 'AWS' }]
-		},
+		name: 'nicoleis.xyz',
+		description: 'This website! A continual work in progress, made with love.💜 Originally built with Gatsby, migrated to Astro, and styled with Tailwind CSS.',
+		icon: CodeBracketIcon,
+		href: 'https://github.com/nicoleanalisecox/nicoleisxyz',
+		skills: [{ icon: CodeBracketIcon, name: 'Astro w/ React' }, { icon: CodeBracketIcon, name: 'Tailwind' }, { icon: CodeBracketIcon, name: 'AWS' }]
+	},
 		{
 			name: 'iMage the Photo Wizard',
 			description: 'A single-page React app where you can search Unsplash API for images. I had fun with the design for this!',
@@ -47,58 +49,54 @@
 			description: 'A freelance web design project. Involved collaboration with client and producing wireframes, mock-ups and final design files.',
 			icon: PuzzlePieceIcon,
 			liveLink: 'https://www.figma.com/proto/OwKSWcBVV2IFY3DNM3WCNq/Financially-Thriving---Master-Design-File?node-id=10678%3A7266&scaling=min-zoom&page-id=10678%3A7265',
-			skills: [{ icon: CodeBracketIcon, name: 'Figma' }]
-			}]
+
+skills: [{ icon: CodeBracketIcon, name: 'Figma' }]
+}]
 
 ---
-			
-			<Shell title={SITE_TITLE} description={SITE_DESCRIPTION}>
-				<div class="mt-2 pt-10 pb-20 px-4 sm:px-6 lg:pt-12 lg:pb-28 lg:px-8">
-					<div class="flex flex-col items-center max-w-7xl mx-auto text-center">
-						<h1 class={`text-3xl tracking-tight font-extrabold ${typographyPrimary} sm:text-4`}>
-							<CodeBracketIcon className={`inline ${iconSize8} mr-1 ${strokeAccent}`} aria-hidden="true" />I want to
-							build cool stuff
-						</h1>
-						<p class={`mt-3 max-w-2xl mx-auto text-xl ${typographySecondary} sm:mt-4`}>
-							Some of my web & design projects woohoo!
-						</p>
-						<div class="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3 mt-12">
-							{projects.map((project) => (
-							<article class="pt-6">
-								<div class={`flow-root rounded-lg ${backgroundSecondary} px-6 pb-8 h-full`}>
-									<div class="-mt-6">
-										<div>
-											<span class={`inline-flex items-center justify-center rounded-md ${UIAccent} p-3
-												shadow-lg`}>
-												<project.icon className={`${iconSize6} ${typographyPrimaryInverted}` }
-													aria-hidden="true" />
-											</span>
-										</div>
-			
-										<h3 class={`mt-8 text-lg font-medium tracking-tight ${typographyPrimary}`}>
-											{project.name}{project.href && <a href={project.href} target='_blank'
-												class={`${typographyAccent} ${iconSize5} mx-1`}>
-												<ArrowTopRightOnSquareIcon className={`inline ${iconSize5}`} aria-label={`visit repo
-													for ${project.name}`} />
-											</a>}
-											{project.liveLink && <a href={project.liveLink} target='_blank' aria-label={`view live
-												site for ${project.name}`}class={`${typographyAccent}`}>
-												<EyeIcon className={`inline ${iconSize5} mx-1`} />
-											</a>}
-										</h3>
-			
-										<p class={`mt-5 text-base ${typographySecondary}`}>{project.description}</p>
-			
-										<section class="flex justify-around">
-											{project.skills?.map((skill) => (
-											<p class={`mt-5 text-base ${typographyAccent}`}>{skill.name}</p>
-											))}
-										</section>
-									</div>
-								</div>
-							</article>
-							))}
+
+<Shell title={SITE_TITLE} description={SITE_DESCRIPTION}>
+	<PageContentShell>
+
+		<PageHeader headerContent={{heading: 'I want to build cool stuff' ,
+			subHeading: 'Some of my web & design projects woohoo!' , pageIcon: CodeBracketIcon}} />
+
+		<div class="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3 mt-12">
+			{projects.map((project) => (
+			<article class="pt-6">
+				<div class={`flow-root rounded-lg ${backgroundSecondary} px-6 pb-8 h-full`}>
+					<div class="-mt-6">
+						<div>
+							<span class={`inline-flex items-center justify-center rounded-md ${UIAccent} p-3
+								shadow-lg`}>
+								<project.icon className={`${iconSize6} ${typographyPrimaryInverted}` }
+									aria-hidden="true" />
+							</span>
 						</div>
+
+						<h3 class={`mt-8 text-lg font-medium tracking-tight ${typographyPrimary}`}>
+							{project.name}{project.href && <a href={project.href} target='_blank'
+								class={`${typographyAccent} ${iconSize5} mx-1`}>
+								<ArrowTopRightOnSquareIcon className={`inline ${iconSize5}`} aria-label={`visit repo for
+									${project.name}`} />
+							</a>}
+							{project.liveLink && <a href={project.liveLink} target='_blank' aria-label={`view live site
+								for ${project.name}`}class={`${typographyAccent}`}>
+								<EyeIcon className={`inline ${iconSize5} mx-1`} />
+							</a>}
+						</h3>
+
+						<p class={`mt-5 text-base ${typographySecondary}`}>{project.description}</p>
+
+						<section class="flex justify-around">
+							{project.skills?.map((skill) => (
+							<p class={`mt-5 text-base ${typographyAccent}`}>{skill.name}</p>
+							))}
+						</section>
 					</div>
 				</div>
-			</Shell>
+			</article>
+			))}
+		</div>
+	</PageContentShell>
+</Shell>

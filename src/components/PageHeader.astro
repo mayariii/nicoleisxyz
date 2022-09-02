@@ -1,0 +1,33 @@
+---
+    import { iconSize8, proseBlog, strokeAccent, typographyPrimary, typographySecondary } from '../styles/styles';
+
+    export interface PageHeaderProps {
+        headerContent: {
+            heading: string;
+            subHeading?: string | JSX.Element;
+            pageIcon: React.ComponentType<React.SVGProps<SVGSVGElement>>
+        };
+    }
+
+    const {
+        headerContent: { heading, subHeading, pageIcon },
+    } = Astro.props;
+
+    const PageIcon = pageIcon;
+
+---
+
+<div class="flex flex-col items-center max-w-7xl mx-auto text-center">
+    <h1 class={`text-3xl tracking-tight font-extrabold ${typographyPrimary} sm:text-4`}>
+        <PageIcon className={`inline ${iconSize8} mr-1 ${strokeAccent}`} aria-hidden="true" />
+        {heading}
+    </h1>
+    <p class={`mt-3 max-w-2xl mx-auto text-xl ${typographySecondary} sm:mt-4`}>
+        {subHeading}
+    </p>
+    <section class="w-full flex flex-col items-center pt-4 ">
+        <div class={`md:max-w-prose px-8 ${proseBlog}`}>
+            <slot />
+        </div>
+    </section>
+</div>
