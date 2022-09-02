@@ -4,7 +4,6 @@
 	import { CloudIcon } from '@heroicons/react/24/outline/index.js'
 	import { backgroundSecondary, badgePrimary, hoverTypographyAccent, typographyPrimary, typographySecondary } from '../styles/styles';
 	import PageHeader from '../components/PageHeader.astro';
-	import PageContentShell from '../components/PageContentShell.astro';
 
 	// Use Astro.glob() to fetch all posts, and then sort them by date.
 	const posts = (await Astro.glob('./blog/*.{md,mdx}')).sort(
@@ -13,57 +12,51 @@
 ---
 
 <Shell title={SITE_TITLE} description={SITE_DESCRIPTION}>
-	<PageContentShell>
-		<div class="relative max-w-7xl mx-auto">
-			<PageHeader headerContent={{heading: 'My thoughts uploaded' ,
-				subHeading: 'Sharing my experiences navigating adulthood, special interests, career and life!' ,
-				pageIcon: CloudIcon}} />
-			<section class={`mt-12 mx-auto grid gap-5 sm:grid-cols-2 lg:grid-cols-3 lg:max-w-none`}>
-				{posts.map((post) => (post.frontmatter.published &&
-				<div class={`${backgroundSecondary} flex flex-col rounded-lg h-full`}>
+	<div class="relative max-w-7xl mx-auto">
+		<PageHeader headerContent={{heading: 'My thoughts uploaded' ,
+			subHeading: 'Sharing my experiences navigating adulthood, special interests, career and life!' , pageIcon:
+			CloudIcon}} />
+		<section class={`mt-12 mx-auto grid gap-5 sm:grid-cols-2 lg:grid-cols-3 lg:max-w-none`}>
+			<!-- post cards -->
+			{posts.map((post) => (post.frontmatter.published &&
+			<div class={`${backgroundSecondary} flex flex-col rounded-lg h-full`}>
 
-					<img class="h-52 w-full object-cover rounded-t-lg" src={post.frontmatter.heroImage ?
-						post.frontmatter.heroImage : '../../public/hero-img.png' } alt={`main image for
-						${post.frontmatter.title}`} />
+				<img class="h-52 w-full object-cover rounded-t-lg" src={post.frontmatter.heroImage ?
+					post.frontmatter.heroImage : '../../public/hero-img.png' } alt={`main image for
+					${post.frontmatter.title}`} />
 
-					<div class={`p-6 flex flex-col justify-items-stretch`}>
-
-						<div class={`flex justify-between`}>
-							<div class={`flex justify-start`}>
-								{post.frontmatter.tags &&
-								post.frontmatter.tags.map((tag: string) =>
-								<p class={`mr-2 px-2.5 py-0.5 rounded-full text-xs font-medium ${badgePrimary}`}>
-									{tag}</p>)}
-							</div>
-							<p class={`mr-2 text-sm ${typographySecondary}`}>
-								<time datetime={post.frontmatter.pubDate}>
-									{new Date(post.frontmatter.pubDate).toLocaleDateString('en-us', {
-									year: 'numeric',
-									month: 'short',
-									day: 'numeric',
-									})}
-								</time>
-							</p>
+				<div class={`p-6 flex flex-col justify-items-stretch`}>
+					<div class={`flex justify-between`}>
+						<div class={`flex justify-start`}>
+							{post.frontmatter.tags &&
+							post.frontmatter.tags.map((tag: string) =>
+							<p class={`mr-2 px-2.5 py-0.5 rounded-full text-xs font-medium ${badgePrimary}`}>
+								{tag}</p>)}
 						</div>
+						<p class={`mr-2 text-sm ${typographySecondary}`}>
+							<time datetime={post.frontmatter.pubDate}>
+								{new Date(post.frontmatter.pubDate).toLocaleDateString('en-us', {
+								year: 'numeric',
+								month: 'short',
+								day: 'numeric',
+								})}
+							</time>
+						</p>
+					</div>
 
-						<div class="block mt-6">
-							<a href={post.url}>
-								<p class={`text-xl font-semibold ${typographyPrimary} ${hoverTypographyAccent}`}>
-									{post.frontmatter.title}</p>
-							</a>
-							<p class={`mt-3 text-base ${typographySecondary}`}>{post.frontmatter.excerpt ?
-								`${(post.frontmatter.excerpt).split(' ').slice(0, 20).join(' ')}...` : ''}
-							</p>
-						</div>
-
-
-
-
-
+					<div class="block mt-6">
+						<a href={post.url}>
+							<p class={`text-xl font-semibold ${typographyPrimary} ${hoverTypographyAccent}`}>
+								{post.frontmatter.title}</p>
+						</a>
+						<p class={`mt-3 text-base ${typographySecondary}`}>{post.frontmatter.excerpt ?
+							`${(post.frontmatter.excerpt).split(' ').slice(0, 20).join(' ')}...` : ''}
+						</p>
 					</div>
 				</div>
-				))}
-			</section>
-		</div>
-	</PageContentShell>
+
+			</div>
+			))}
+		</section>
+	</div>
 </Shell>

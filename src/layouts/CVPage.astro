@@ -1,22 +1,17 @@
 ---
     import { SITE_TITLE, SITE_DESCRIPTION } from '../config';
     import Shell from './Shell.astro';
-    import { proseBlog, typographyAccent, iconSize4 } from '../styles/styles';
+    import { proseBlog } from '../styles/styles';
     import PageHeader from '../components/PageHeader.astro';
-    import { SparklesIcon, ArrowTopRightOnSquareIcon } from '@heroicons/react/24/outline';
-    import PageContentShell from '../components/PageContentShell.astro';
-
+    import { SparklesIcon } from '@heroicons/react/24/outline';
 ---
 
 <Shell title={SITE_TITLE} description={SITE_DESCRIPTION}>
-    <PageContentShell>
-        <PageHeader headerContent={{heading: 'I develop and deliver' ,
-            subHeading: 'Currently building cool HRTech as a Software Engineer at HiPeople' , pageIcon:
-            SparklesIcon}} />
-        <section class="w-full flex flex-col items-center pt-8 lg:pt-12 ">
-            <div class={`md:max-w-prose px-8 ${proseBlog}`}>
-                <slot />
-            </div>
-        </section>
-    </PageContentShell>
+    <PageHeader headerContent={{heading: 'I develop and deliver' ,
+        subHeading: 'Currently building cool HRTech as a Software Engineer at HiPeople' , pageIcon: SparklesIcon}} />
+    <section class="w-full flex flex-col items-center pt-8 lg:pt-12 ">
+        <div class={`md:max-w-prose px-8 ${proseBlog}`}>
+            <slot />
+        </div>
+    </section>
 </Shell>

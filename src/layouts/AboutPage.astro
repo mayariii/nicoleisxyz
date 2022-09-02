@@ -4,21 +4,18 @@
     import { proseBlog } from '../styles/styles';
     import PageHeader from '../components/PageHeader.astro';
     import { FaceSmileIcon } from '@heroicons/react/24/outline';
-    import PageContentShell from '../components/PageContentShell.astro';
 
 ---
 
 <Shell title={SITE_TITLE} description={SITE_DESCRIPTION}>
-    <PageContentShell>
-        <div class="flex flex-col items-center max-w-7xl mx-auto text-center">
-            <PageHeader headerContent={{heading: 'About me' ,
-                subHeading: 'British-Filipina in the UK. Neurodivergent and curious about lots of things. Everyday athlete / competitive figure skater.'
-                , pageIcon: FaceSmileIcon}} />
-            <section class="w-full flex flex-col items-center pt-8 lg:pt-12 ">
-                <div class={`md:max-w-prose px-8 ${proseBlog}`}>
-                    <slot />
-                </div>
-            </section>
-        </div>
-    </PageContentShell>
+    <div class="flex flex-col items-center max-w-7xl mx-auto text-center">
+        <PageHeader headerContent={{heading: 'About me' ,
+            subHeading: 'British-Filipina in the UK. Neurodivergent and curious about lots of things. Everyday athlete / competitive figure skater.'
+            , pageIcon: FaceSmileIcon}} />
+        <section class="w-full flex flex-col items-center pt-8 lg:pt-12 ">
+            <div class={`md:max-w-prose px-8 ${proseBlog}`}>
+                <slot />
+            </div>
+        </section>
+    </div>
 </Shell>
