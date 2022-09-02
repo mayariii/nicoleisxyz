@@ -3,17 +3,18 @@
 ---
 
 <script is:inline>
+    if (!("theme" in localStorage)) {
+        document.documentElement.classList.add("light");
+        document.getElementById("theme-dark")?.classList.add("hidden");
+    }
     if (
-        localStorage.theme === "dark" ||
-        (!("theme" in localStorage))
+        localStorage.theme === "dark"
     ) {
         document.documentElement.classList.add("dark");
         document.getElementById("theme-light")?.classList.add("hidden");
-        document.getElementById("theme-dark")?.classList.remove("hidden");
     } else {
-        document.documentElement.classList.remove("light");
+        document.documentElement.classList.remove("dark");
         document.getElementById("theme-dark")?.classList.add("hidden");
-        document.getElementById("theme-light")?.classList.remove("hidden");
     }
 
     function attachEvent(selector, event, fn) {
