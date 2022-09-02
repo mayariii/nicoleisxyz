@@ -75,11 +75,3 @@ prose-blockquote:border-indigo-500
 prose-blockquote:font-light
 
 `
-
-
-// `md:max-w-prose px-8 prose prose-headings:text-indigo-700
-//                 prose-a:text-indigo-600 hover:prose-a:text-indigo-400
-//                  prose-ul:list-inside prose-ol:list-inside prose-li:marker:text-indigo-600
-//                 prose-img:w-full prose-img:border prose-img:p-1
-//                  `
-
