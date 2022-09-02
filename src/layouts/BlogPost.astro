@@ -28,8 +28,7 @@
 			leading-tighter tracking-tighter mb-8 font-heading`}>
 			{title}</h1>
 		{tags.map((tag: string) =>
-		<p
-			class={`inline-flex items-center mr-2 px-2.5 py-0.5 rounded-full text-xs font-medium ${badgePrimary}`}>
+		<p class={`inline-flex items-center mr-2 px-2.5 py-0.5 rounded-full text-xs font-medium ${badgePrimary}`}>
 			{tag}</p>)}
 		{heroImage && (
 		<Image src={heroImage} width={900} aspectRatio={'16:9'} class={`md:max-w-prose object-cover mb-8 max-w-full
@@ -38,5 +37,10 @@
 		<section class={`${proseBlog}`}>
 			<slot />
 		</section>
+		<!-- buy me a coffee button -->
+		<a class='mt-6' href="https://www.buymeacoffee.com/nicoleac" target='blank'>
+			<img
+				src='https://img.buymeacoffee.com/button-api/?text=Buy me a coffee&emoji=☕&slug=nicoleac&button_colour=BD5FFF&font_colour=ffffff&font_family=Inter&outline_colour=000000&coffee_colour=FFDD00' />
+		</a>
 	</article>
 </Shell>

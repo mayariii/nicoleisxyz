@@ -51,6 +51,9 @@ dark:prose-headings:text-white
 
 prose-img:rounded-md 
 prose-img:shadow-lg
+prose-img:mx-auto
+prose-img:max-h-96
+prose-img:w-auto
 
 prose-a:text-indigo-600
 dark:prose-a:text-indigo-400

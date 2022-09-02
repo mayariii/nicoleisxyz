@@ -17,7 +17,9 @@ Fun fact: I took an AS Level in Computing back in my college days but dropped it
 My course is 100% online learning, which offers more flexibility with having a full-time job. Although even with the flexibility it’s been a little challenging getting used to studying academically again, but I’m starting to find my feet. I’ve completed my first module too, wahoo! In this module (Principles of Programming) we were looking at programming fundamentals with C and Java.
 
 One thing that has helped me keep my student life organised is this [awesome Notion template from The Notion Bar](https://thenotionbar.com/aesthetic-notion-templates/student-semester-dashboard).
-![](__GHOST_URL__/content/images/2021/11/image.png)
+
+![1](https://nicoleisxyz-blogimages.s3.amazonaws.com/month-autumn-in-review-fresh-starts-finding-balance/1.png)
+
 I use it to plan out when I’m going to cover certain lessons, and it’s where do my first pass note-taking. Keep an eye out for a future blog post where I’ll explain more about how I take my notes!
 
 ## New beginnings in my career
@@ -33,7 +35,9 @@ I went through the [interview process](https://www.notion.so/Our-interview-proce
 It was also my first ever [take-home coding project](https://image-search-app-ts-react.netlify.app/) + technical interview - even if I didn’t make it through to the next stage here, it was such a good learning opportunity for me. It was a single-page application (SPA) using React + [Typescript](https://www.typescriptlang.org/) (something I haven’t used before) which I felt like I had fun with it whilst being positively challenged, and was super satisfying to complete by the end!
 
 And so...I was really over the moon to receive an offer as a Software Engineer at [HiPeople](https://www.hipeople.io/)! (Currently hiring - check out open positions [here](https://www.notion.so/Working-at-HiPeople-f9a2a77283bf4274a14ea725d1cede35) - includes working student roles, tech roles + others 👩🏻‍💻)
-![](__GHOST_URL__/content/images/2021/11/image-1.png)
+
+![2](https://nicoleisxyz-blogimages.s3.amazonaws.com/month-autumn-in-review-fresh-starts-finding-balance/2.png)
+
 > “HiPeople enables you to make better hiring decisions, faster. Goodbye endless CV reviews and screening calls, hello data-driven and science-based applicant insights!”
 
 HiPeople is a startup based in Berlin, and I’ll be working within the Engineering team, with 100% remote working but I get to go to Berlin on occasion too which is super cool. I am honestly really excited to be a part of the growth of the product alongside a fab team. 👊 
@@ -41,7 +45,8 @@ HiPeople is a startup based in Berlin, and I’ll be working within the Engineer
 > “Much is written about the courage it takes to start – to start a new job, a new relationship, a new business or a new passion. Not enough is written about the equally important, equally courageous, equally confounding thing you usually have to do before you start something new – quitting the last thing.” - Steven Bartlett, 'Happy Sexy Millionaire'
 
 Mhmmmm, this was hard. I’d been with Siemens for over 4 years, from intern to graduate to software engineer.  In a previous blog post I wrote about [Things I Learned as an Intern and Graduate Engineer](__GHOST_URL__/5-things-i-learned-as-an-intern-and-graduate-engineer/); my time there was a significant part of my life and I am super grateful for the experiences I had. I had a really lovely send off on my last day, and although I will miss my Siemens colleagues, I am feeling really positive about this next chapter. It will also be interesting to move from such a huge company to a significantly smaller-sized one! Let’s goooooo 🚀
-![](__GHOST_URL__/content/images/2021/11/image-8.png)
+![3](https://nicoleisxyz-blogimages.s3.amazonaws.com/month-autumn-in-review-fresh-starts-finding-balance/3.png)
+
 ## Trying to keep balanced
 
 I feel like in life we experience many cycles of chaos and order. This also brings me a bit of comfort in the fact that if my life feels a lil chaotic right now, it will eventually return to have some order eventually, and that this is just a temporary wave I gotta ride!
@@ -55,10 +60,16 @@ I found it helpful to write out a mindmap of everything I had going on one page,
 ## Let’s go to the beach, beach, let’s go get away
 
 Leaving my job meant using my remaining holiday days, and so we took the opportunity to have a 3-day getaway to chill out, reset and recharge before starting my new role. I found [an amazing little Airbnb in Estepona](https://www.airbnb.co.uk/rooms/42213330?adults=2&amp;check_in=2021-10-25&amp;check_out=2021-10-27&amp;translate_ugc=false&amp;federated_search_id=d0444acd-4213-4932-ac57-d6c3be8bf4db&amp;source_impression_id=p3_1632862475_Vm7dFGV4l2ZiRjQk&amp;guests=1) (Spain) that was literally RIGHT next to the sea! A well-need, super refreshing break indeed.
-![](__GHOST_URL__/content/images/2021/11/image-4.png)![](__GHOST_URL__/content/images/2021/11/image-5.png)Visit to the Orchidarium!![](__GHOST_URL__/content/images/2021/11/image-7.png)Sunrise Yoga!
+
+![4](https://nicoleisxyz-blogimages.s3.amazonaws.com/month-autumn-in-review-fresh-starts-finding-balance/4.png)
+
+![5](https://nicoleisxyz-blogimages.s3.amazonaws.com/month-autumn-in-review-fresh-starts-finding-balance/5.png)
+Visit to the Orchidarium
+
+![6](https://nicoleisxyz-blogimages.s3.amazonaws.com/month-autumn-in-review-fresh-starts-finding-balance/6.png)
+Sunrise Yoga
 
 ## Other notable things I found cool:
-
 * Surpassed 300 Days of Code!
 * Had a phone upgrade - switched from Android to Apple
 * Discovered [Obsidian](https://obsidian.md/)
@@ -67,9 +78,14 @@ Leaving my job meant using my remaining holiday days, and so we took the opportu
 * Youtuber [Rowena Tsai](https://www.youtube.com/c/RowenaTsai)
 * [Structured app](https://structured.today/) for timeblocking (iOS)
 * I lifted more than my bodyweight for the first time! (back squats, sumo deadlifts and deadlifts)
-![](__GHOST_URL__/content/images/2021/11/image-2.png)![](__GHOST_URL__/content/images/2021/11/image-3.png)
+* 
+![7](https://nicoleisxyz-blogimages.s3.amazonaws.com/month-autumn-in-review-fresh-starts-finding-balance/7.png)
+![8](https://nicoleisxyz-blogimages.s3.amazonaws.com/month-autumn-in-review-fresh-starts-finding-balance/8.png)
+
 ---
 
 As the days get darker, the weather gets colder and we move into winter potato mode, take care of yourselves folks 💜 (+ it'll be Christmas before we know it 🎄)
-![](https://img.buymeacoffee.com/button-api/?text=Buy%20me%20a%20coffee&amp;emoji=%F0%9F%8C%B8&amp;slug=nicoleac&amp;button_colour=BD5FFF&amp;font_colour=ffffff&amp;font_family=Inter&amp;outline_colour=000000&amp;coffee_colour=FFDD00)
+
+
+
 

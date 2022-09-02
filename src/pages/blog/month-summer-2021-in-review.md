@@ -19,17 +19,21 @@ Like many others, I have been working from home for the majority of the pandemic
 It was really nice to see my colleagues after a long time, but BOY was I tired! For a while when I first came back, I would just come home and crash out with a post-work nap. I swear it wasn't this tiring before. 😂
 
 Some things I did to make the return a little easier were getting my clothes, bags and food ready the night before, plus bringing headphones to channel out background noise when I need to focus.
-![](__GHOST_URL__/content/images/2021/09/Screenshot_20210904-184509_Photos.jpg)
+![1](https://nicoleisxyz-blogimages.s3.amazonaws.com/month-summer-2021-in-review/1.jpg)
+
 ## Returning to the gym
 
 Returning to work meant returning to the gym nearby. I had my membership cancelled at the start of the pandemic, and since upping my fitness game throughout lockdown with the help of my coach Jane, it felt great to train in a different environment than my flat. I am no longer scared of lifting weights or anxious about entering the big weights section. New goals, new gains, new mindset, and a whole load of (non-linear) progression.
-![](__GHOST_URL__/content/images/2021/09/Screenshot_20210902-212659_Gallery.jpg)
+![2](https://nicoleisxyz-blogimages.s3.amazonaws.com/month-summer-2021-in-review/2.jpg)
+
 ## Superseding young Nicole on the ice
 
 I have officially overtaken pre-teen Nicole as a figure skater! I think this is one of my proudest moments this year. This summer I've worked my way through Bronze, Silver and Gold of Skate UK Star (Free Skating) levels! I set myself a goal My training off ice in the gym/at home complimented the on-ice training where I would do a gazillion reps of elements and fail again, and again aaaaand again until I got it right. All steps from here will be something I've never done before - how exciting!
 
 Next in line will be working on Skate UK Ice Dance Bronze - Gold levels, whilst also working on Level 1 Field Moves which is part of the national test structure for skaters.
-![](__GHOST_URL__/content/images/2021/09/20210904_071540.jpg)My logbook from 2009 vs. my logbook in 2021!![](__GHOST_URL__/content/images/2021/09/Screenshot_20210904-184942_Gallery.jpg)
+![3](https://nicoleisxyz-blogimages.s3.amazonaws.com/month-summer-2021-in-review/3.jpg)My logbook from 2009 vs. my logbook in 2021!
+![4](https://nicoleisxyz-blogimages.s3.amazonaws.com/month-summer-2021-in-review/4.jpg)
+
 ## Returning to therapy
 
 I made the decision to revisit my therapist after over a year of no sessions. I was clearly due for a mind MOT/service! An important note for me was that returning didn't mean I was going 'backwards' but instead I am just riding the next wave of challenges. This time I am better prepared, but just needed a little help unpacking my thoughts and shifting my perspective, which helped things to be less heavy.
@@ -41,15 +45,15 @@ I've also recently discovered a great little meditation app that has an offer of
 ## Chopped off my hair
 
 After not cutting my hair for over 2 years and lockdowns happening, my hair was LONG. I was definitely due for a haircut, and this time (with some extra encouragement and inspiration from my friend Duda) I got 16 inches cut off! It felt very liberating and even greater knowing the hair will be donated to The Little Princess Trust. 🥰
-![](__GHOST_URL__/content/images/2021/09/Screenshot_20210904-184027_Photos-1.jpg)
+![5](https://nicoleisxyz-blogimages.s3.amazonaws.com/month-summer-2021-in-review/5.jpg)
 ## Getting vaccinated
 
 Double vaxxed! First dose, bit of a sore arm, but fine. Second dose, floored for days. 🥴
-![](__GHOST_URL__/content/images/2021/09/Screenshot_20210902-213457_Photos.jpg)
+![6](https://nicoleisxyz-blogimages.s3.amazonaws.com/month-summer-2021-in-review/6.jpg)
 ## Turned 25
 
 I also turned 25. For some reason, it hit different to my last few birthdays. 😂 Perhaps I thought I would have a mortgage or something by now *cries in empty Help to Buy ISA*. Had to pep talk myself with a reminder that I'm exactly where I need to be, everyones timelines are different and I have a cat...girl, life is good.
-![](__GHOST_URL__/content/images/2021/09/Screenshot_20210904-184135_Photos.jpg)
+![7](https://nicoleisxyz-blogimages.s3.amazonaws.com/month-summer-2021-in-review/7.jpg)
 ## 2/3rds through #365DaysOfCode
 
 "Alexa, play I'm Still Standing on Spotify" 🎵
@@ -67,7 +71,7 @@ Other resources I've enjoyed:
 - Google Developers San Francisco 2021 Summit (super inspiring and insightful talks by ladies in tech!) [https://www.youtube.com/watch?v=qVEUbOdQvqg](https://www.youtube.com/watch?v=qVEUbOdQvqg)
 
 I've primarily been front-end focused with HTML, CSS, JavaScript, Sass, React and a bit of TypeScript recently too. You can see some of my projects on [GitHub](https://github.com/nicoleanalisecox).
-![](__GHOST_URL__/content/images/2021/09/Screenshot_20210904-184603_Photos.jpg)
+![8](https://nicoleisxyz-blogimages.s3.amazonaws.com/month-summer-2021-in-review/8.jpg)
 ## Became a software engineer
 
 After 4 years starting from Engineering Intern in 2017, to doing a 2 year scheme as a Graduate Engineer, I am no longer entry-level talent! I am officially a software engineer 🥺. For the past year and a half I've been working on the Crossrail Project in the Software Team, working on proprietary software for communication and control for the new underground line in London (Elizabeth Line); I've learned a lot and I'm super grateful for the experience.
@@ -89,11 +93,9 @@ You may have noticed this site has had a bit of an upgrade! I recently migrated 
 I got curious and pretty much immediately fell in love with the speediness and UI of Ghost compared to Wordpress - so here we are! I have lots of ideas for future content, and now you can sign up and subscribe to keep updated when I publish new blog posts. I'll also be curating some member-only content in the near future, so keep your eyes peeled!
 
 ## Goals for September
-
 - Get organised and survive my first month back as a student. Set myself up for success with a dedicated Notion dashboard 👩🏻‍🎓
 - Meditate every day of the month - send a photo upon completion to my accountability partner Mia to keep up my streak! 🧘🏻‍♀️
 - Complete development of my client's website and deliver them a gorgeous & effective new online space for their business ✨
 - Be more intentional about relaxation time so I don't burn out! 💤
 - Be consistent with skating and fitness progression - keep showing up 🏋🏻‍♀️
 
-![](https://img.buymeacoffee.com/button-api/?text=Buy%20me%20a%20coffee&amp;emoji=%F0%9F%8C%B8&amp;slug=nicoleac&amp;button_colour=BD5FFF&amp;font_colour=ffffff&amp;font_family=Inter&amp;outline_colour=000000&amp;coffee_colour=FFDD00)
