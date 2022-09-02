@@ -37,7 +37,7 @@ export const badgePrimary = 'bg-purple-100 text-purple-800 dark:bg-purple-800 da
 export const proseBlog = `
 mx-auto px-8 sm:px-6 max-w-3xl 
 
-prose 
+prose
 
 prose-p:text-slate-800
 dark:prose-p:text-white
