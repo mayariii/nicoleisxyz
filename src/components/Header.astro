@@ -4,6 +4,7 @@
 	import { ArrowTopRightOnSquareIcon, SunIcon, MoonIcon, Bars2Icon, XMarkIcon } from '@heroicons/react/24/outline/index.js'
 	import { backgroundPrimary, backgroundPrimaryHover, hoverTypographyPrimaryInverted, hoverUIAccent, iconSize4, iconSize6, typographySecondary } from '../styles/styles';
 	import MenuLink from './MenuLink.astro';
+	import ThemeToggleButton from './ThemeToggleButton'
 
 	const pages = [
 		{ name: 'writing', href: '/blog/' },
@@ -38,12 +39,15 @@
 
 				<div class="flex justify-between">
 					<div class="flex items-center">
+						<!-- light mode/dark mode toggle -->
+						<ThemeToggleButton client:load />
+
 						<!-- drop down menu toggle -->
-						<button id='menu-btn' type="button" class={`${typographySecondary} ${backgroundPrimaryHover}
-							rounded-lg text-sm p-2.5 inline-flex items-center`}
-							aria-label="Toggle between Dark and Light mode" data-aw-toggle-color-scheme>
-							<SunIcon id='theme-light' className={iconSize6} />
-							<MoonIcon id='theme-dark' className={iconSize6} />
+						<button id='theme-btn' class={`md:hidden ml-1.5 ${typographySecondary} ${backgroundPrimaryHover}
+							rounded-lg text-sm p-2.5 inline-flex items-center`} aria-label="Toggle Menu"
+							data-aw-toggle-menu>
+							<Bars2Icon id='menu-closed' className={iconSize6} />
+							<XMarkIcon id='menu-open' className={iconSize6} />
 						</button>
 						<!-- drop down menu content -->
 						<div id='menu' class={`mt-3 flex flex-col w-screen h-screen z-50 absolute left-0 top-12
@@ -59,13 +63,6 @@
 							</MenuLink>
 							))}
 						</div>
-						<!-- light mode/dark mode toggle -->
-						<button id='theme-btn' class={`md:hidden ml-1.5 ${typographySecondary} ${backgroundPrimaryHover}
-							rounded-lg text-sm p-2.5 inline-flex items-center`} aria-label="Toggle Menu"
-							data-aw-toggle-menu>
-							<Bars2Icon id='menu-closed' className={iconSize6} />
-							<XMarkIcon id='menu-open' className={iconSize6} />
-						</button>
 					</div>
 				</div>
 			</div>

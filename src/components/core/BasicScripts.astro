@@ -3,20 +3,6 @@
 ---
 
 <script is:inline>
-    if (!("theme" in localStorage)) {
-        document.documentElement.classList.add("light");
-        document.getElementById("theme-dark")?.classList.add("hidden");
-    }
-    if (
-        localStorage.theme === "dark"
-    ) {
-        document.documentElement.classList.add("dark");
-        document.getElementById("theme-light")?.classList.add("hidden");
-    } else {
-        document.documentElement.classList.remove("dark");
-        document.getElementById("theme-dark")?.classList.add("hidden");
-    }
-
     function attachEvent(selector, event, fn) {
         const matches = document.querySelectorAll(selector);
         if (matches && matches.length) {
@@ -31,15 +17,6 @@
             elem.classList.toggle("expanded");
             document.documentElement.classList.toggle("overflow-hidden");
             document.getElementById("menu")?.classList.toggle("hidden");
-        });
-
-        attachEvent("[data-aw-toggle-color-scheme]", "click", function (elem) {
-            document.documentElement.classList.toggle("dark");
-            localStorage.theme = document.documentElement.classList.contains("dark")
-                ? "dark"
-                : "light";
-            document.getElementById("theme-light")?.classList.toggle("hidden");
-            document.getElementById("theme-dark")?.classList.toggle("hidden");
         });
     };
 

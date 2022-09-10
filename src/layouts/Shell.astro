@@ -12,7 +12,6 @@
     }
 
     const { title, description } = Astro.props
-
 ---
 
 <!DOCTYPE html>
@@ -20,9 +19,16 @@
 
 <head>
     <BaseHead title={title} description={description} />
+    <script>
+            let theme = localStorage.getItem('theme');
+            if (!theme) theme = 'light';
+            localStorage.setItem("theme", theme);
+            document.documentElement.classList.add(theme);
+        </script>
 </head>
 
 <body class={`flex h-full ${backgroundPrimary}`}>
+
     <div class="viewport flex flex-col min-h-screen justify-between overflow-x-hidden w-full">
         <Header title={title} />
         <main class='mt-24'>
